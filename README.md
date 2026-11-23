@@ -40,7 +40,7 @@ Dijkstra: MAD -> HNL
   YVR  Vancouver International Airport (Vancouver, Canada)
      |  4,354 km
   HNL  Daniel K Inouye International Airport (Honolulu, United States)
-  Total: 13,117 km | 5 legs | airports expanded: 2,896 | 13.3 ms
+  Total: 13,117 km | 5 legs | airports expanded: 2,896 | 51.8 ms
 ```
 
 Dijkstra minimizes total distance only, so it happily takes 5 legs to save a
@@ -59,7 +59,7 @@ program runs. The route data dates from 2014, so some routes no longer exist.
 | Purpose        | Library                         |
 | -------------- | ------------------------------- |
 | Data loading   | Python `csv`, `urllib`          |
-| Graph & search | Custom implementation, `heapq`  |
+| Graph & search | `Vertex`, `Graph`, `PriorityQueue` and `dijkstra` written from scratch following [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html) (sections 7.10, 8.6, 8.20) |
 | Verification   | `networkx`                      |
 | Maps           | `matplotlib` / `plotly`         |
 | Documentation  | Sphinx, published to GitHub Pages |
