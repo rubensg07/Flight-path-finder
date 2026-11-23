@@ -2,6 +2,9 @@ docs/Makefile
 docs/make.bat
 .DS_Store
 
+# OpenFlights data (downloaded automatically by flight_path_finder.py)
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
