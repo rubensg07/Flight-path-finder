@@ -97,5 +97,4 @@ This project used [Claude] for:
 - Structure the README.md
 - Committing and pushing to Github
 
-Everything AI-generated was reviewed and tested by me. This section will be
-updated as the project progresses.
+
