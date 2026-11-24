@@ -90,14 +90,12 @@ sphinx-build -M html . _build
 
 ## How AI was used
 
-This project used [Claude Code](https://claude.com/claude-code) (Anthropic) for:
+This project used [Claude] for:
 
 - Brainstorming project ideas and choosing a repository name
-- Setting up the Sphinx documentation and the GitHub Actions workflow that publishes it
-- The starter `FlightGraph` class and `haversine` function, including their docstrings
-- Progress report 1 code: OpenFlights loading, Dijkstra's algorithm, the text
-  itinerary output, and the command-line interface. Dijkstra's results were
-  checked against `networkx` on 300 random airport pairs (all matched).
+- Find the data for the flights
+- Structure the README.md
+- Committing and pushing to Github
 
 Everything AI-generated was reviewed and tested by me. This section will be
 updated as the project progresses.
